@@ -31,6 +31,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install virtualenv --user
+        python -m pip install argon2-cffi
         pip install -r requirements.txt
     
     - name: WhiteSource Prioritize Scan
