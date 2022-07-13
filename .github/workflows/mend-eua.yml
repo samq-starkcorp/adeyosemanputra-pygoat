@@ -2,7 +2,7 @@ name: Whitesource Prioritize Python
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     
 jobs:
   prioritize:
