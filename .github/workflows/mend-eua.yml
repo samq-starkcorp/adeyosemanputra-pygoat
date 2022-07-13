@@ -46,6 +46,7 @@ jobs:
         WS_PYTHON_RESOLVEDEPENDENCIES: true
         WS_FILESYSTEMSCAN: false
         WS_GENERATEPROJECTDETAILSJSON: true
+        WS_LOG_FILES_LEVEL: trace
       run: |
         curl -LJO https://unified-agent.s3.amazonaws.com/wss-unified-agent.jar
         echo Unified Agent downloaded successfully
